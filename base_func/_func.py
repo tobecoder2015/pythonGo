@@ -25,3 +25,4 @@ def all_the_args(*args, **kwargs):
     print kwargs
 
 all_the_args(1, 2, a=3, b=4)
+

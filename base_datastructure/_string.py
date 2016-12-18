@@ -29,3 +29,23 @@ print"'hello {0}，welcome to {1} '.format('WQS','python')=" + strValue
 
 strValue= 'hello {name}，welcome to {lang} '.format(name='WQS', lang='python')
 print"'hello {name}，welcome to {lang} '.format(name='WQS', lang='python')=" + strValue
+
+
+
+print "'abc'.islower()="+(str)('abc'.islower())
+
+print "'Abc'.islower()="+(str)('Abc'.islower())
+print "'123ABC'.isdigit()="+(str)('123ABC'.isdigit())
+print "'123'.isdigit()="+(str)('123'.isdigit())
+print "'123'.isalnum()="+(str)('123'.isalnum())
+print "'123ABC'.isalnum()="+(str)('123ABC'.isalnum())
+
+print "' '.isspace()="+(str)(' '.isspace())
+
+
+print 'CNETR'.center(20,"*")
+print 'CNETR'.ljust(20,"-")
+print 'CNETR'.rjust(20,"+")
+
+
+
